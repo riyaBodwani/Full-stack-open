@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+.search {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+input {
+  margin-left: 12px;
+  padding: 10px 14px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #555;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #333;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+.country-list {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.country-item:last-child {
+  border-bottom: none;
+}
+
+.country {
+  margin-top: 25px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.country h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.country p {
+  margin: 10px 0;
+}
+
+.country ul {
+  line-height: 1.8;
+}
+
+.flag {
+  display: block;
+  width: 220px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.weather {
+  margin-top: 15px;
+}
+
+.weather img {
+  width: 80px;
+  display: block;
+}
+
+.message {
+  background: #fff3cd;
+  color: #856404;
+  padding: 14px 18px;
+  border-radius: 8px;
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 14px 18px;
+  border-radius: 8px;
+}
