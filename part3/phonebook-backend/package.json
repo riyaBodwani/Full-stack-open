@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.9.2",
     "morgan": "^1.11.0"
   }
 }
